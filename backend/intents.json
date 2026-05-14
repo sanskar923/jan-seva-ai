@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Namaste", "Bhai", "Help"],
+      "responses": ["Namaste! I am SevaBot. How can I help you today?", "Hello! How can I assist you with Bhopal's civic issues?"]
+    },
+    {
+      "tag": "electricity",
+      "patterns": ["No current", "Light chali gayi", "Street light broken", "Power cut", "Bijli kab aayegi?"],
+      "responses": ["I understand. Please use the Live AI Vision tool to report this electricity issue officially."]
+    },
+    {
+      "tag": "water",
+      "patterns": ["Pani nahi aa raha", "Water leak", "Pipe broken", "Dirty water", "Water supply issue"],
+      "responses": ["Noted. You can report this water-related problem using the form above."]
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "users": [
+    {
+      "id": "seed-admin",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+      "username": "sanskar123",
+      "password": "1234",
+      "role": "user",
+      "createdAt": "2026-04-30T11:24:57.420Z"
+    },
+    {
+      "id": "c5e5f6d0-a1ba-47be-92a9-de2a1f9bfdf0",
+      "username": "shaan12",
+      "password": "1234",
+      "role": "user",
+      "createdAt": "2026-05-02T06:45:58.663Z"
+    },
+    {
+      "id": "31a93847-9c77-46f6-904f-3c1dcbb6733f",
+      "username": "shaan1234",
+      "password": "shaan",
+      "role": "user",
+      "createdAt": "2026-05-02T07:36:52.688Z"
+    },
+    {
+      "id": "ad7c3e77-6a14-403c-964c-0f6c46cbd32b",
+      "username": "hemant12",
+      "password": "1234",
+      "role": "user",
+      "createdAt": "2026-05-02T07:56:51.162Z"
+    },
+    {
+      "id": "9662dec0-a68c-4ef2-b700-e686405d8ac3",
+      "username": "hemant",
+      "password": "4321",
+      "role": "user",
+      "createdAt": "2026-05-10T09:37:24.446Z"
+    },
+    {
+      "id": "472f3c14-39dd-44bd-b8cc-ce8036841159",
+      "username": "hemant123",
+      "password": "1234",
+      "role": "user",
+      "createdAt": "2026-05-12T13:36:54.488Z"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "a810181a-ebe8-4d31-8045-d2c7db839247",
+      "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+      "username": "sanskar123",
+      "method": "text",
+      "text": "there is a power outage in sector 12 in since last night",
+      "category": "Electricity",
+      "urgency": "Low",
+      "status": "Submitted",
+      "imageUrl": null,
+      "createdAt": "2026-04-30T11:31:51.508Z",
+      "ticketId": "JSA-2026-001"
+    },
+    {
+      "id": "aaac57c2-f098-49f0-883f-a088d235c4e6",
+      "userId": "c5e5f6d0-a1ba-47be-92a9-de2a1f9bfdf0",
+      "username": "shaan12",
+      "method": "image",
+      "text": "Image-based complaint",
+      "category": "General",
+      "urgency": "Low",
+      "status": "Submitted",
+      "imageUrl": "/uploads/dbc40c4e-2062-417d-b57a-eb42f31af733.webp",
+      "createdAt": "2026-05-02T06:46:27.442Z",
+      "ticketId": "JSA-2026-006"
+    },
+    {
+      "id": "b39414dd-540c-4268-a2d6-c89e0134db5f",
+      "userId": "c5e5f6d0-a1ba-47be-92a9-de2a1f9bfdf0",
+      "username": "shaan12",
+      "method": "image",
+      "text": "Image-based complaint",
+      "category": "General",
+      "urgency": "Low",
+      "status": "Submitted",
+      "imageUrl": "/uploads/9f40bb7f-b159-4746-9d3b-59d50b03ad41.jpg",
+      "createdAt": "2026-05-02T06:48:18.000Z",
+      "ticketId": "JSA-2026-007"
+    },
+    {
+      "id": "a8c31eda-6e0b-48cf-90ca-7af09faabf8b",
+      "userId": "c5e5f6d0-a1ba-47be-92a9-de2a1f9bfdf0",
+      "username": "shaan12",
+      "method": "image",
+      "text": "Image-based complaint",
+      "category": "General",
+      "urgency": "Low",
+      "status": "Submitted",
+      "imageUrl": "/uploads/c8a5965e-4ae0-49a4-a6a1-3099ff5796bb.jpg",
+      "createdAt": "2026-05-02T06:50:16.697Z",
+      "ticketId": "JSA-2026-008"
+    },
+    {
+      "id": "5b0858ec-c5e7-4968-bdaf-52e66bb23c0f",
+      "ticketId": "JSA-2026-009",
+      "userId": "31a93847-9c77-46f6-904f-3c1dcbb6733f",
+      "username": "shaan1234",
+      "method": "image",
+      "text": "Image-based complaint — Water.",
+      "category": "Water",
+      "urgency": "Medium",
+      "status": "Submitted",
+      "imageUrl": "/uploads/c6bff74b-b4bf-4621-800a-715b1b7d38c4.jpg",
+      "confidence": 0.3,
+      "summary": "Image-based complaint — Water.",
+      "aiSource": "local-mobilenet+rules",
+      "topLabels": [
+        {
+          "label": "lumbermill, sawmill",
+          "score": 0.05526749789714813
+        },
+        {
+          "label": "canoe",
+          "score": 0.054599471390247345
+        },
+        {
+          "label": "paddle, boat paddle",
+          "score": 0.045054059475660324
+        },
+        {
+          "label": "shovel",
+          "score": 0.03670945763587952
+        },
+        {
+          "label": "geyser",
+          "score": 0.030341122299432755
+        },
+        {
+          "label": "quill, quill pen",
+          "score": 0.01486915908753872
+        },
+        {
+          "label": "sandbar, sand bar",
+          "score": 0.013300281018018723
+        },
+        {
+          "label": "valley, vale",
+          "score": 0.011648289859294891
+        },
+        {
+          "label": "mountain tent",
+          "score": 0.011083044111728668
+        },
+        {
+          "label": "hammer",
+          "score": 0.010530486702919006
+        }
+      ],
+      "createdAt": "2026-05-02T07:55:20.107Z"
+    },
+    {
+      "id": "612ccd36-3e4a-4df3-9ac5-bf0687e38bec",
+      "ticketId": "JSA-2026-010",
+      "userId": "31a93847-9c77-46f6-904f-3c1dcbb6733f",
+      "username": "shaan1234",
+      "method": "text",
+      "text": "gchjgvhvvjhgfhhgc",
+      "category": "General",
+      "urgency": "Low",
+      "status": "Submitted",
+      "imageUrl": null,
+      "confidence": 0.38,
+      "summary": "gchjgvhvvjhgfhhgc",
+      "aiSource": "local-rules",
+      "topLabels": [],
+      "createdAt": "2026-05-02T07:55:52.617Z"
+    },
+    {
+      "id": "d2cc11ad-685b-48d3-919c-1f8d9126ca82",
+      "ticketId": "JSA-2026-011",
+      "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+      "username": "sanskar123",
+      "method": "text",
+      "text": "jbjjhjhjjhjhkhk",
+      "category": "General",
+      "urgency": "Low",
+      "status": "Submitted",
+      "imageUrl": null,
+      "confidence": 0,
+      "summary": "Invalid input detected.",
+      "aiSource": "validation-filter",
+      "topLabels": [],
+      "createdAt": "2026-05-07T17:51:42.499Z"
+    },
+    {
+      "id": "d00c867d-f27c-4000-99f6-def8767032b5",
+      "ticketId": "JSA-2026-012",
+      "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+      "username": "sanskar123",
+      "method": "image",
+      "text": "Image-based complaint — Electricity.",
+      "category": "Electricity",
+      "urgency": "Medium",
+      "status": "Submitted",
+      "imageUrl": "/uploads/3b1fe97e-45c3-479b-bf60-780da7a5eec2.jpg",
+      "confidence": 0.3449421048164368,
+      "summary": "Image-based complaint — Electricity.",
+      "aiSource": "local-mobilenet+rules",
+      "topLabels": [
+        {
+          "label": "pole",
+          "score": 0.6271674633026123
+        },
+        {
+          "label": "pirate, pirate ship",
+          "score": 0.22114256024360657
+        },
+        {
+          "label": "schooner",
+          "score": 0.030138565227389336
+        },
+        {
+          "label": "bow",
+          "score": 0.004588284995406866
+        },
+        {
+          "label": "wreck",
+          "score": 0.0038790814578533173
+        },
+        {
+          "label": "dock, dockage, docking facility",
+          "score": 0.0021605079527944326
+        },
+        {
+          "label": "horizontal bar, high bar",
+          "score": 0.0020487820729613304
+        },
+        {
+          "label": "maypole",
+          "score": 0.0019805673509836197
+        },
+        {
+          "label": "walking stick, walkingstick, stick insect",
+          "score": 0.0018942697206512094
+        },
+        {
+          "label": "reel",
+          "score": 0.0018467300105839968
+        }
+      ],
+      "createdAt": "2026-05-07T18:04:53.316Z"
+    },
+    {
+      "id": "d466441f-d7d2-454a-9c84-4bfc3375d5f7",
+      "ticketId": "JSA-2026-013",
+      "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+      "username": "sanskar123",
+      "method": "image",
+      "text": "Image-based complaint — Road.",
+      "category": "Road",
+      "urgency": "Medium",
+      "status": "Submitted",
+      "imageUrl": "/uploads/87af47b9-7d74-4935-8378-6ab6d88f8def.webp",
+      "confidence": 0.4843262955546379,
+      "summary": "Image-based complaint — Road.",
+      "aiSource": "local-mobilenet+rules",
+      "topLabels": [
+        {
+          "label": "horse cart, horse-cart",
+          "score": 0.41327810287475586
+        },
+        {
+          "label": "barrow, garden cart, lawn cart, wheelbarrow",
+          "score": 0.23256850242614746
+        },
+        {
+          "label": "oxcart",
+          "score": 0.07399764657020569
+        },
+        {
+          "label": "park bench",
+          "score": 0.012234180234372616
+        },
+        {
+          "label": "golfcart, golf cart",
+          "score": 0.010940421372652054
+        },
+        {
+          "label": "garbage truck, dustcart",
+          "score": 0.010564068332314491
+        },
+        {
+          "label": "patio, terrace",
+          "score": 0.010368919931352139
+        },
+        {
+          "label": "tricycle, trike, velocipede",
+          "score": 0.009958968497812748
+        },
+        {
+          "label": "jinrikisha, ricksha, rickshaw",
+          "score": 0.008705751970410347
+        },
+        {
+          "label": "shopping cart",
+          "score": 0.008625222370028496
+        }
+      ],
+      "createdAt": "2026-05-07T18:05:44.337Z"
+    },
+    {
+      "id": "803ecb47-ee0d-4bcc-af20-10b4cd06e536",
+      "ticketId": "JSA-2026-014",
+      "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+      "username": "sanskar123",
+      "method": "image",
+      "text": "Image-based complaint — Water.",
+      "category": "Water",
+      "urgency": "Medium",
+      "status": "Rejected",
+      "imageUrl": "/uploads/6a631a93-a79a-4aed-815b-bc6b1fa2cc3d.jpeg",
+      "confidence": 0.32772090658545494,
+      "summary": "Image-based complaint — Water.",
+      "aiSource": "local-mobilenet+rules",
+      "topLabels": [
+        {
+          "label": "fountain",
+          "score": 0.2753656506538391
+        },
+        {
+          "label": "reel",
+          "score": 0.059535302221775055
+        },
+        {
+          "label": "fireboat",
+          "score": 0.05235525593161583
+        },
+        {
+          "label": "shovel",
+          "score": 0.046175405383110046
+        },
+        {
+          "label": "geyser",
+          "score": 0.04333454370498657
+        },
+        {
+          "label": "paintbrush",
+          "score": 0.03847339376807213
+        },
+        {
+          "label": "grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus",
+          "score": 0.037715863436460495
+        },
+        {
+          "label": "pole",
+          "score": 0.03447780758142471
+        },
+        {
+          "label": "bannister, banister, balustrade, balusters, handrail",
+          "score": 0.03265780210494995
+        },
+        {
+          "label": "gar, garfish, garpike, billfish, Lepisosteus osseus",
+          "score": 0.029826845973730087
+        }
+      ],
+      "createdAt": "2026-05-09T05:31:10.395Z",
+      "updatedAt": "2026-05-10T09:09:27.415Z"
+    },
+    {
+      "id": "d4c0527c-e4b8-4dd3-90b8-6f3e78269cff",
+      "ticketId": "JSA-2026-015",
+      "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+      "username": "sanskar123",
+      "fullname": "sanskar",
+      "occupation": "Not Specified",
+      "employmentType": "Private Sector",
+      "location": "Bhopal, MP",
+      "method": "image",
+      "text": "Image Report",
+      "category": "General",
+      "urgency": "Medium",
+      "status": "Resolved",
+      "imageUrl": "/uploads/794e4e9a-d918-4a79-babd-90694a9e338c.webp",
+      "confidence": 0.4843262955546379,
+      "summary": "Image Report",
+      "aiSource": "local-mobilenet+rules",
+      "topLabels": [
+        {
+          "label": "horse cart, horse-cart",
+          "score": 0.41327810287475586
+        },
+        {
+          "label": "barrow, garden cart, lawn cart, wheelbarrow",
+          "score": 0.23256850242614746
+        },
+        {
+          "label": "oxcart",
+          "score": 0.07399764657020569
+        },
+        {
+          "label": "park bench",
+          "score": 0.012234180234372616
+        },
+        {
+          "label": "golfcart, golf cart",
+          "score": 0.010940421372652054
+        },
+        {
+          "label": "garbage truck, dustcart",
+          "score": 0.010564068332314491
+        },
+        {
+          "label": "patio, terrace",
+          "score": 0.010368919931352139
+        },
+        {
+          "label": "tricycle, trike, velocipede",
+          "score": 0.009958968497812748
+        },
+        {
+          "label": "jinrikisha, ricksha, rickshaw",
+          "score": 0.008705751970410347
+        },
+        {
+          "label": "shopping cart",
+          "score": 0.008625222370028496
+        }
+      ],
+      "createdAt": "2026-05-13T06:58:31.943Z",
+      "updatedAt": "2026-05-13T07:33:56.547Z"
+    },
+    {
+      "id": "f0b62a86-9212-4255-8ecd-bbb416bdc7d1",
+      "ticketId": "JSA-2026-016",
+      "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+      "username": "sanskar123",
+      "fullname": "ramu",
+      "occupation": "Not Specified",
+      "employmentType": "Self-Employed",
+      "location": "📍 Lat: 23.2497, Lng: 77.4793 (Bhopal)",
+      "method": "image",
+      "text": "Image Report",
+      "category": "Electricity",
+      "urgency": "Medium",
+      "status": "Submitted",
+      "imageUrl": "/uploads/7fadcb01-b127-49ea-a4e8-1d43d2bb7a28.jpg",
+      "confidence": 0.3,
+      "summary": "Image Report",
+      "aiSource": "local-mobilenet+rules",
+      "topLabels": [
+        {
+          "label": "pole",
+          "score": 0.8304480910301208
+        },
+        {
+          "label": "crane",
+          "score": 0.013570558279752731
+        },
+        {
+          "label": "solar dish, solar collector, solar furnace",
+          "score": 0.006635709200054407
+        },
+        {
+          "label": "horizontal bar, high bar",
+          "score": 0.006118033546954393
+        },
+        {
+          "label": "parallel bars, bars",
+          "score": 0.005706405267119408
+        },
+        {
+          "label": "chime, bell, gong",
+          "score": 0.005537509452551603
+        },
+        {
+          "label": "water tower",
+          "score": 0.005156393628567457
+        },
+        {
+          "label": "worm fence, snake fence, snake-rail fence, Virginia fence",
+          "score": 0.005126416217535734
+        },
+        {
+          "label": "walking stick, walkingstick, stick insect",
+          "score": 0.0037301797419786453
+        },
+        {
+          "label": "harvestman, daddy longlegs, Phalangium opilio",
+          "score": 0.0022204206325113773
+        }
+      ],
+      "createdAt": "2026-05-13T20:09:05.236Z"
+    },
+    {
+      "id": "4efb93ca-30af-4cf7-8019-0a3d1420eae4",
+      "ticketId": "JSA-2026-017",
+      "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+      "username": "sanskar123",
+      "fullname": "tatti",
+      "occupation": "Not Specified",
+      "employmentType": "Self-Employed",
+      "location": "📍 Lat: 23.2497, Lng: 77.4793 (Bhopal)",
+      "method": "image",
+      "text": "Image Report",
+      "category": "General",
+      "urgency": "Medium",
+      "status": "Submitted",
+      "imageUrl": "/uploads/c992822d-f515-4b59-a745-c8d02a072cfa.jpg",
+      "confidence": 0.3,
+      "summary": "Image Report",
+      "aiSource": "local-mobilenet+rules",
+      "topLabels": [
+        {
+          "label": "spider web, spider's web",
+          "score": 0.2014661282300949
+        },
+        {
+          "label": "pirate, pirate ship",
+          "score": 0.04798661917448044
+        },
+        {
+          "label": "water tower",
+          "score": 0.03335893526673317
+        },
+        {
+          "label": "radio telescope, radio reflector",
+          "score": 0.03132866695523262
+        },
+        {
+          "label": "beacon, lighthouse, beacon light, pharos",
+          "score": 0.030225107446312904
+        },
+        {
+          "label": "great grey owl, great gray owl, Strix nebulosa",
+          "score": 0.024980951100587845
+        },
+        {
+          "label": "magnetic compass",
+          "score": 0.016080543398857117
+        },
+        {
+          "label": "brambling, Fringilla montifringilla",
+          "score": 0.014043258503079414
+        },
+        {
+          "label": "harvestman, daddy longlegs, Phalangium opilio",
+          "score": 0.013777908869087696
+        },
+        {
+          "label": "black and gold garden spider, Argiope aurantia",
+          "score": 0.012805565260350704
+        }
+      ],
+      "createdAt": "2026-05-13T20:09:54.295Z"
+    },
+    {
+      "id": "6b48d1ec-0ca0-4305-af3f-ba30e26c7c49",
+      "ticketId": "JSA-2026-018",
+      "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+      "username": "sanskar123",
+      "fullname": "shaan",
+      "occupation": "Not Specified",
+      "employmentType": "Self-Employed",
+      "location": "📍 Lat: 23.2497, Lng: 77.4793 (Bhopal)",
+      "method": "image",
+      "text": "Image Report",
+      "category": "Electricity",
+      "urgency": "Medium",
+      "status": "Submitted",
+      "imageUrl": "/uploads/a38a7e3b-72f3-4648-a25c-1a3de3b74d11.jpeg",
+      "confidence": 0.3,
+      "summary": "Image Report",
+      "aiSource": "local-mobilenet+rules",
+      "topLabels": [
+        {
+          "label": "pole",
+          "score": 0.6862691044807434
+        },
+        {
+          "label": "crane",
+          "score": 0.05107489600777626
+        },
+        {
+          "label": "suspension bridge",
+          "score": 0.02815721556544304
+        },
+        {
+          "label": "traffic light, traffic signal, stoplight",
+          "score": 0.014102905057370663
+        },
+        {
+          "label": "street sign",
+          "score": 0.01319141499698162
+        },
+        {
+          "label": "chain saw, chainsaw",
+          "score": 0.01065494678914547
+        },
+        {
+          "label": "maypole",
+          "score": 0.009942110627889633
+        },
+        {
+          "label": "horizontal bar, high bar",
+          "score": 0.009153129532933235
+        },
+        {
+          "label": "knot",
+          "score": 0.0076829721219837666
+        },
+        {
+          "label": "reel",
+          "score": 0.003959601279348135
+        }
+      ],
+      "createdAt": "2026-05-13T20:10:29.742Z"
+    }
+  ]
+}

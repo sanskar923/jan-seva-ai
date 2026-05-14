@@ -1,0 +1,98 @@
+[
+  {
+    "id": "a810181a-ebe8-4d31-8045-d2c7db839247",
+    "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+    "username": "sanskar123",
+    "method": "text",
+    "text": "there is a power outage in sector 12 in since last night",
+    "category": "Electricity",
+    "urgency": "Low",
+    "status": "Submitted",
+    "imageUrl": null,
+    "createdAt": "2026-04-30T11:31:51.508Z"
+  },
+  {
+    "id": "5d9c813f-6c1e-4d3c-a070-0752cb6eecfb",
+    "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+    "username": "sanskar123",
+    "method": "image",
+    "text": "Image-based complaint",
+    "category": "General",
+    "urgency": "Low",
+    "status": "Submitted",
+    "imageUrl": "/uploads/2414aaa3-b919-448e-a37e-cb1edd5282b3.webp",
+    "createdAt": "2026-05-02T06:15:14.678Z"
+  },
+  {
+    "id": "b48e32ad-43e8-4115-91ec-c8010fc6b5da",
+    "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+    "username": "sanskar123",
+    "method": "text",
+    "text": "road broke",
+    "category": "Road",
+    "urgency": "Low",
+    "status": "Submitted",
+    "imageUrl": null,
+    "createdAt": "2026-05-02T06:15:34.642Z"
+  },
+  {
+    "id": "917f2b9e-51a4-4166-bae1-ee57cb02910e",
+    "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+    "username": "sanskar123",
+    "method": "image",
+    "text": "Image-based complaint",
+    "category": "General",
+    "urgency": "Low",
+    "status": "Submitted",
+    "imageUrl": "/uploads/c17ca857-8062-4086-b256-ad19130f53c8.webp",
+    "createdAt": "2026-05-02T06:41:20.772Z"
+  },
+  {
+    "id": "a24d826b-f2f7-4b85-8b11-0b559b9bb320",
+    "userId": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+    "username": "sanskar123",
+    "method": "image",
+    "text": "Image-based complaint",
+    "category": "General",
+    "urgency": "Low",
+    "status": "Submitted",
+    "imageUrl": "/uploads/9a4c600e-5db7-4462-b310-a043d446b5a1.webp",
+    "createdAt": "2026-05-02T06:45:00.035Z"
+  },
+  {
+    "id": "aaac57c2-f098-49f0-883f-a088d235c4e6",
+    "userId": "c5e5f6d0-a1ba-47be-92a9-de2a1f9bfdf0",
+    "username": "shaan12",
+    "method": "image",
+    "text": "Image-based complaint",
+    "category": "General",
+    "urgency": "Low",
+    "status": "Submitted",
+    "imageUrl": "/uploads/dbc40c4e-2062-417d-b57a-eb42f31af733.webp",
+    "createdAt": "2026-05-02T06:46:27.442Z"
+  },
+  {
+    "id": "b39414dd-540c-4268-a2d6-c89e0134db5f",
+    "userId": "c5e5f6d0-a1ba-47be-92a9-de2a1f9bfdf0",
+    "username": "shaan12",
+    "method": "image",
+    "text": "Image-based complaint",
+    "category": "General",
+    "urgency": "Low",
+    "status": "Submitted",
+    "imageUrl": "/uploads/9f40bb7f-b159-4746-9d3b-59d50b03ad41.jpg",
+    "createdAt": "2026-05-02T06:48:18.000Z"
+  },
+  {
+    "id": "a8c31eda-6e0b-48cf-90ca-7af09faabf8b",
+    "userId": "c5e5f6d0-a1ba-47be-92a9-de2a1f9bfdf0",
+    "username": "shaan12",
+    "method": "image",
+    "text": "Image-based complaint",
+    "category": "General",
+    "urgency": "Low",
+    "status": "Submitted",
+    "imageUrl": "/uploads/c8a5965e-4ae0-49a4-a6a1-3099ff5796bb.jpg",
+    "createdAt": "2026-05-02T06:50:16.697Z"
+  }
+]

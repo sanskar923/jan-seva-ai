@@ -1,0 +1,23 @@
+[
+  {
+    "id": "seed-admin",
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin",
+    "createdAt": "2026-04-30T00:00:00.000Z"
+  },
+  {
+    "id": "556f1036-4f86-4ada-bb4a-d34113f97bef",
+    "username": "sanskar123",
+    "password": "1234",
+    "role": "user",
+    "createdAt": "2026-04-30T11:24:57.420Z"
+  },
+  {
+    "id": "c5e5f6d0-a1ba-47be-92a9-de2a1f9bfdf0",
+    "username": "shaan12",
+    "password": "1234",
+    "role": "user",
+    "createdAt": "2026-05-02T06:45:58.663Z"
+  }
+]

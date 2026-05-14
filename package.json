@@ -1,0 +1,14 @@
+{
+  "name": "jan-seva-ai",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "nodemailer": "^8.0.7"
+  }
+}
